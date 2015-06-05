@@ -13,3 +13,7 @@ Whenever a change has been done to the code add the relevant file then commit. A
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 It's useful when you want to branch off by experimenting with additional features or variations of your program, or that you may have a team and each team member can work on separate branch that can later be merged back to the master.
+
+How do the diagrams help you visualize the branch structure?
+
+I can see the flow of the commits and how each commit is related to its parent and where the head is. It also allows me to see any unreachable commits in the project.
