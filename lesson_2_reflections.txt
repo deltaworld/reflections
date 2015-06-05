@@ -9,3 +9,7 @@ The staging area is an intermediatery stage before adding the files to the commi
 How can you use the staging area to make sure you have one commit per logical change?
 
 Whenever a change has been done to the code add the relevant file then commit. Add the commit message that relates to the change that you had made and any subsequent changes to be added in a similar fashion.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It's useful when you want to branch off by experimenting with additional features or variations of your program, or that you may have a team and each team member can work on separate branch that can later be merged back to the master.
