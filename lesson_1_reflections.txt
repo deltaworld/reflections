@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+It was easier than I thought and I wasn't aware of the command-line diff
+instruction.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I can look back through previous versions of my program, especially if a bug had
+developed and I need to trace back to an earlier version of that program.
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The pros are that you can choose when to save at the most logical steps and you
+can choose how often. The disadvantage is the user can forget and not commit as 
+often as required.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is associated with code and a lot of code projects are made of multiple
+files that relate to each other and by changing one can affect the other. In 
+Google Docs and other single file version control systems, each file is
+independent from the other and each file is one project in its own right.
+
+How can you use the commands git log and diff to view the history of files?
+
+git log will allow you to see all the commits, their notes and ids. Once you
+have found the commit that you'd like to investigate you can compare it with the
+previous commit by using git diff and this will show you all the additions and 
+deletions that have been made to the file.
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+A lot when editing code there is always the fear that the changes you make will
+break the code but by using the git commit changes you can always revert back to
+a version that had previously worked. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Initially to upload all the code files and examples that I have been working on as repositories and then eventually to upload them to GitHub as part of my portfolio. Also so that I can version control my Android develoment for the nanodegree
