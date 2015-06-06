@@ -33,3 +33,6 @@ stored locally?
 For easy offline access and to compare diff between the working directory and 
 what is stored remotely and the ability to merge code with other contributors
 from the remote branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaboration would be done face to face or over the telephone and email. There will be a constant flow of files and changes to code and keeping track of what changes done by who would be very difficult. Using Git and with GitHub makes things a lot easier for collaboration as all changes are tracked through commits and any requests for changes are noted as comments on GitHub.
