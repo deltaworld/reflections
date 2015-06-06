@@ -21,3 +21,7 @@ I can see the flow of the commits and how each commit is related to its parent a
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 It combines the code additions and changes from both branches together to one branch. The reason it is represented is that the branched off branch merging back to the master and becomes one branch where both the branch and the master are their parents.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pros are that it automates and figures out what to add and what not to add by the changes that have been done in both branches. The cons are that it is not clever enough to figure out any logical changes between the two branches and a manual conflict resolution needs to be done. 
