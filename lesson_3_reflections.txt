@@ -26,3 +26,10 @@ and changes to it. Clones may be used if you see a project either yours or
 someone elses and you can make a copy to experiment with without having it on 
 github. Branching is useful if you'd like to experiment with different features
 or architecture in your code.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+For easy offline access and to compare diff between the working directory and 
+what is stored remotely and the ability to merge code with other contributors
+from the remote branch.
