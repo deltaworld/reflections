@@ -35,4 +35,18 @@ what is stored remotely and the ability to merge code with other contributors
 from the remote branch.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
 Collaboration would be done face to face or over the telephone and email. There will be a constant flow of files and changes to code and keeping track of what changes done by who would be very difficult. Using Git and with GitHub makes things a lot easier for collaboration as all changes are tracked through commits and any requests for changes are noted as comments on GitHub.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+If you are implementing a different feature that is different or not included in
+the master and suggest that this feature to be included as part of the master,
+this can be suggested via a pull request to the author of the master branch.
+This has the benefit of experimenting with extra features and the ones that 
+are approved can then be added in to the master. This has a benefit over just
+working with the master as implementing and tracking all these extra features
+can take away from the bug-fixing and maintanenance of the main source code.
+The disadvantage is that this process has some overhead with administration
+and can be more complicated rather than just working with one branch.
