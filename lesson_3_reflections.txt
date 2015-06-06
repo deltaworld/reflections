@@ -5,3 +5,24 @@ When you wish to collaborate with other programmers to work simultaneously on
 the source code. Also as a backup to the source code stored locally. If you are
 working on different locations then this can become a convenient way to work
 across the different machines.
+
+Why might you always want to pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+There may be some code that you are working on locally that you may be
+experimenting on or some changes have been done remotely that you don't want
+merged with your current branch locally. 
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+Forks allow you to clone a remote repository on github into your remote github
+account. Clone allows you to clone a repository that is on github either on your
+account or someone else or you can clone a local repository. Branches is where
+you branch of your commits with slight alterations from the existing commits.
+Forks are useful if there is a project online that you would like to make a copy
+and then make a local clone so that you can manipulate and do your own additions
+and changes to it. Clones may be used if you see a project either yours or 
+someone elses and you can make a copy to experiment with without having it on 
+github. Branching is useful if you'd like to experiment with different features
+or architecture in your code.
